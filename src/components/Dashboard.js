@@ -9,8 +9,8 @@ class Dashboard extends Component {
 			this.state = {highest: 0, people: 0};
 			//this.last_message = 0;
     	this.pubnub = new PubNubReact({
-            publishKey: 'pub-c-8722bb03-a521-41d7-9c91-40bde3dffaa2',
-            subscribeKey: 'sub-c-81922b34-e0f0-11eb-93ac-9ef4385fbd63'
+            publishKey: '********************',
+            subscribeKey: '*************************'
         });
     	this.pubnub.init(this);
 			// this.state = { highest : 0 };
