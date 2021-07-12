@@ -1,10 +1,10 @@
 
 import { combineReducers } from "redux";
-import reducerTemplate from './reducerTemplate';
+import starships from './starships';
 
 let rootReducer = combineReducers({
 
-    template: reducerTemplate
+    starships: starships
     
 });
 

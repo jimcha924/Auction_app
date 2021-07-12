@@ -5,12 +5,21 @@
  * import {increment} from path
  */
 
-import {INCREMENT} from './types'
+import { REGISTER_USER, BID_NOW } from './types'
 
-export const increment = (n) => {
+
+export const register_user = (n) => {
     
     return {
-        type: INCREMENT,
-        data: n
+        type: REGISTER_USER,
+        data: []
+    }
+};
+
+export const bid_now = (n) => {
+    
+    return {
+        type: BID_NOW,
+        data: []
     }
 };
