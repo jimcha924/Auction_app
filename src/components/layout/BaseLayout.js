@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Header from "./header";
 import Footer from "./footer";
 import Slideshow from "../Slides";
-import Cards from "../Cards";
+
 
 const BaseLayout = (props) => {
   return (
@@ -14,7 +14,7 @@ const BaseLayout = (props) => {
 
     <Slideshow />
     <br></br>
-    {/* <Cards /> */}
+
      <div> 
       {/* <ul>
         <li>
