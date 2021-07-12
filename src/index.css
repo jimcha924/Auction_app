@@ -343,6 +343,12 @@ nav.responsive-menu a {
 .slide-from-left.sidebar-menu::after {
   display: none;
 }
+div.shipListing{
+  border-style: solid;
+  border-width: 1px;
+  border-color: darkblue;
+  margin: 2px
+}
 /* Medium Screens */
 @media only screen and (min-width: 40.063em) {
   .sidebar-menu {

@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import Fade from 'react-reveal';
-import { loadData } from '../actions/loadData';
+import { Card, CardBody, Col, Row } from 'reactstrap';
 
 
 
@@ -23,9 +23,10 @@ const Listings = () => {
         <div className="row">
             <div className="col-9">
                 <Fade bottom cascade>
+                    
                 <div className="row">
                     {starshipData.map(ship=>{
-                        return <div key={ship.name} className="col-4 mb-4 product">
+                        return <div key={ship.name} className="col-4 mb-4 shipListing">
 
                                     <p className="mt-3">Model: {ship.model}</p>
                                     <p className="mt-3">Hyperdrive Rating: {ship.hyperdriveRating}</p>
@@ -40,7 +41,7 @@ const Listings = () => {
                                     className="btn btn-warning"
                                     // onClick={()=> dispatch(addToCart(product))}
 
-                                    >Buy now</button>
+                                    >Bid now</button>
                                 </div>
                                 </div>
                             })}

@@ -9,9 +9,9 @@ const Header = () => {
 				<header className="site-header">
 					<div id="main-header" className="main-header header-sticky">
 						<div className="inner-header container clearfix">
-							<div className="logo">
+							{/* <div className="logo">
 								<img src="images/dreamPilot_150.png" alt="dreamPilot logo"/>
-							</div>
+							</div> */}
 							<nav className="main-navigation text-left hidden-xs hidden-sm">
 								<ul>
 									<li><Link to="/">Home</Link></li>

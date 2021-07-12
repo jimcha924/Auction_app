@@ -6,9 +6,9 @@ import 'react-slideshow-image/dist/styles.css'
 const Slideshow = () => {
     
     const slideImages = [
-        'images/dreamPilot_lg.jpg',
-        'images/star-wars-naboo-royal-starship-01.png',
-        'images/MFalcon.jpg'
+        'images/dreamFleet_rt.png',
+        'images/1183772.jpg',
+        'images/1183750.jpg'
     ];
     
         return (
