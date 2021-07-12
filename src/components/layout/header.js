@@ -1,7 +1,6 @@
-import React, {PureComponent} from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import Modals from '../ModalComponents';
 
 const Header = () => {
 
@@ -10,7 +9,7 @@ const Header = () => {
 					<div id="main-header" className="main-header header-sticky">
 						<div className="inner-header container clearfix">
 							{/* <div className="logo">
-								<img src="images/dreamPilot_150.png" alt="dreamPilot logo"/>
+								<img src="images/DreamFleet.png" alt="dreamFleet logo"/>
 							</div> */}
 							<nav className="main-navigation text-left hidden-xs hidden-sm">
 								<ul>
