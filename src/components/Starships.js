@@ -11,8 +11,8 @@ class Starships extends Component {
     	super(props);
     	this.state = {value: ''};
     	this.pubnub = new PubNubReact({
-            publishKey: 'pub-c-cb11f5cf-b1d3-4f88-bd20-9452239cc84f',
-            subscribeKey: 'sub-c-0df88aaa-de8a-11eb-b709-22f598fbfd18'
+            publishKey: '**********************',
+            subscribeKey: '***********************'
         });
     	this.pubnub.init(this);
     	this.handleChange = this.handleChange.bind(this);
